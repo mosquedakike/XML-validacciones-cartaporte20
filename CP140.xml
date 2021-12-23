@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cfdi:Comprobante xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd http://www.sat.gob.mx/CartaPorte20 http://www.sat.gob.mx/sitio_internet/cfd/CartaPorte/CartaPorte20.xsd" Version="3.3" Serie="CFD" Folio="38003137" Fecha="2021-12-22T18:56:49" FormaPago="99" CondicionesDePago="30 DIAS" SubTotal="1306.00" Moneda="MXN" TipoCambio="1" Total="1462.72" TipoDeComprobante="I" MetodoPago="PPD" LugarExpedicion="54770"
+    xmlns:cfdi="http://www.sat.gob.mx/cfd/3">
+    <cfdi:Emisor Rfc="EKU9003173C9" Nombre="PRUEBAS DAVA" RegimenFiscal="601" />
+    <cfdi:Receptor Rfc="CMP8809291D5" Nombre="CENTRO MODULAR DE POLIESTIRENO SA DE CV" UsoCFDI="G03" />
+    <cfdi:Conceptos>
+        <cfdi:Concepto ClaveProdServ="78101800" NoIdentificacion="VF350-60M-LOCAL DIRECTO" Cantidad="1.000000" ClaveUnidad="E48" Unidad="SERVICIO" Descripcion="FLETE CAMIONETA F 350 60 MTS LOCAL" ValorUnitario="1306.000000" Importe="1306.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="1306.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="208.96" />
+                </cfdi:Traslados>
+                <cfdi:Retenciones>
+                    <cfdi:Retencion Base="1306.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.040000" Importe="52.24" />
+                </cfdi:Retenciones>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+    </cfdi:Conceptos>
+    <cfdi:Impuestos TotalImpuestosRetenidos="52.24" TotalImpuestosTrasladados="208.96">
+        <cfdi:Retenciones>
+            <cfdi:Retencion Impuesto="002" Importe="52.24" />
+        </cfdi:Retenciones>
+        <cfdi:Traslados>
+            <cfdi:Traslado Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="208.96" />
+        </cfdi:Traslados>
+    </cfdi:Impuestos>
+    <cfdi:Complemento>
+        <cartaporte20:CartaPorte Version="2.0" TranspInternac="No" TotalDistRec="200"
+            xmlns:cartaporte20="http://www.sat.gob.mx/CartaPorte20">
+            <cartaporte20:Ubicaciones>
+                <cartaporte20:Ubicacion TipoUbicacion="Origen" RFCRemitenteDestinatario="JES900109Q90" NombreRemitenteDestinatario="EMPAQUE" FechaHoraSalidaLlegada="2021-12-02T00:00:00">
+                    <cartaporte20:Domicilio Localidad="NA" Estado="MEX" Pais="MEX" CodigoPostal="54716" />
+                </cartaporte20:Ubicacion>
+                <cartaporte20:Ubicacion TipoUbicacion="Destino" RFCRemitenteDestinatario="CPA7503043P1" NombreRemitenteDestinatario="Publico en general" FechaHoraSalidaLlegada="2021-12-13T04:00:00" DistanciaRecorrida="200">
+                    <cartaporte20:Domicilio Estado="MEX" Pais="MEX" CodigoPostal="54880" />
+                </cartaporte20:Ubicacion>
+            </cartaporte20:Ubicaciones>
+            <cartaporte20:Mercancias PesoBrutoTotal="1060" UnidadPeso="KGM" PesoNetoTotal="1060" NumTotalMercancias="7">
+                <cartaporte20:Mercancia BienesTransp="30103619" Descripcion="VIGUETA DE ALMA ABIERTA 14 V00" Cantidad="9" ClaveUnidad="H87" Unidad="PZA" PesoEnKg="50" />
+                <cartaporte20:Mercancia BienesTransp="30103619" Descripcion="VIGUETA DE ALMA ABIERTA 14 V01" Cantidad="24" ClaveUnidad="H87" Unidad="PZA" PesoEnKg="200" />
+                <cartaporte20:Mercancia BienesTransp="30103619" Descripcion="VIGUETA DE ALMA ABIERTA 14 V01" Cantidad="24" ClaveUnidad="H87" Unidad="PZA" PesoEnKg="200" />
+                <cartaporte20:Mercancia BienesTransp="30103619" Descripcion="VIGUETA DE ALMA ABIERTA 14 V05" Cantidad="2" ClaveUnidad="H87" Unidad="PZA" PesoEnKg="10" />
+                <cartaporte20:Mercancia BienesTransp="30103619" Descripcion="VIGUETA DE ALMA ABIERTA 14 V05" Cantidad="24" ClaveUnidad="H87" Unidad="PZA" PesoEnKg="50" />
+                <cartaporte20:Mercancia BienesTransp="30103619" Descripcion="VIGUETA DE ALMA ABIERTA 14 V14" Cantidad="12" ClaveUnidad="H87" Unidad="PZA" PesoEnKg="50" />
+                <cartaporte20:Mercancia BienesTransp="30141514" Descripcion="BOVEDILLA DE POLIESTIRENO STD VAA DENSIDAD 10 +-1 KG/M3" Cantidad="220" ClaveUnidad="H87" Unidad="PZAS" PesoEnKg="500" />
+                <cartaporte20:Autotransporte PermSCT="TPAF01" NumPermisoSCT="CAC9069594">
+                    <cartaporte20:IdentificacionVehicular ConfigVehicular="C2" PlacaVM="LD14226" AnioModeloVM="2012" />
+                    <cartaporte20:Seguros AseguraRespCivil="ABA" PolizaRespCivil="NA40004184" />
+                </cartaporte20:Autotransporte>
+            </cartaporte20:Mercancias>
+            <cartaporte20:FiguraTransporte>
+                <cartaporte20:TiposFigura TipoFigura="01" RFCFigura="EOLB9007088A1" NumLicencia="630000053265" NombreFigura="BENJAMIN ESCOBAR LEYVA" />
+            </cartaporte20:FiguraTransporte>
+        </cartaporte20:CartaPorte>
+    </cfdi:Complemento>
+</cfdi:Comprobante>
