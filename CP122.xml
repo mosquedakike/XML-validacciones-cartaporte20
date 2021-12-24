@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<cfdi:Comprobante xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cartaporte20="http://www.sat.gob.mx/CartaPorte20" xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd http://www.sat.gob.mx/CartaPorte20 http://www.sat.gob.mx/sitio_internet/cfd/CartaPorte/CartaPorte20.xsd" Serie="CT" Version="3.3" Fecha="2021-12-19T10:31:08" Folio="3169" Moneda="XXX" Total="0.00" SubTotal="0" TipoDeComprobante="T" LugarExpedicion="80430">
+<cfdi:Comprobante xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cartaporte20="http://www.sat.gob.mx/CartaPorte20" xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd http://www.sat.gob.mx/CartaPorte20 http://www.sat.gob.mx/sitio_internet/cfd/CartaPorte/CartaPorte20.xsd" Serie="CT" Version="3.3" Fecha="2021-12-24T10:31:08" Folio="3169" Moneda="XXX" Total="0.00" SubTotal="0" TipoDeComprobante="T" LugarExpedicion="80430">
 	<cfdi:Emisor RegimenFiscal="601" Nombre="CARAVI LOGISTICA SA DE CV" Rfc="EKU9003173C9"/>
 	<cfdi:Receptor UsoCFDI="P01" Nombre="CARAVI LOGISTICA SA DE CV" Rfc="EKU9003173C9"/>
 	<cfdi:Conceptos>
@@ -7,7 +7,7 @@
 		</cfdi:Concepto>
 	</cfdi:Conceptos>
 	<cfdi:Complemento>
-		<cartaporte20:CartaPorte Version="2.0" TranspInternac="No" TotalDistRec="500.00">
+		<cartaporte20:CartaPorte Version="2.0" TranspInternac="No">
 			<cartaporte20:Ubicaciones>
 				<cartaporte20:Ubicacion TipoUbicacion="Destino" IDUbicacion="OR000001" RFCRemitenteDestinatario="ATU140403IR2" FechaHoraSalidaLlegada="2021-09-12T16:41:00" NumEstacion="Q881.6" NombreEstacion="SUFRAGIO CHP" TipoEstacion="01">
 					<cartaporte20:Domicilio  Estado="SIN" Colonia="0118" Localidad="02" Municipio="006" Pais="MEX" CodigoPostal="80150"/>
