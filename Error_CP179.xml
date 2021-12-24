@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cfdi:Comprobante xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cartaporte20="http://www.sat.gob.mx/CartaPorte20" xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd http://www.sat.gob.mx/CartaPorte20 http://www.sat.gob.mx/sitio_internet/cfd/CartaPorte/CartaPorte20.xsd" Serie="CT" Version="3.3" Fecha="2021-12-21T10:36:08" Folio="3169" Moneda="XXX" Total="0.00" SubTotal="0" TipoDeComprobante="T" LugarExpedicion="80430">
+	<cfdi:Emisor RegimenFiscal="601" Nombre="CARAVI LOGISTICA SA DE CV" Rfc="IIA040805DZ4"/>
+	<cfdi:Receptor UsoCFDI="P01" Nombre="CARAVI LOGISTICA SA DE CV" Rfc="XEXX010101000" NumRegIdTrib="860937009" ResidenciaFiscal="USA"/>
+	<cfdi:Conceptos>
+		<cfdi:Concepto Importe="238.28" ValorUnitario="0.23" Descripcion="LIMES - CARTON 40 LBS GENERICO LIMON - Bultos: 56" Unidad="Kilogramo" Cantidad="1036.0000" NoIdentificacion="09011121104" ClaveUnidad="KGM" ClaveProdServ="50304207">
+			<cfdi:InformacionAduanera NumeroPedimento="21  23  0700  1005695"/>
+		</cfdi:Concepto>
+		<cfdi:Concepto Importe="1429.68" ValorUnitario="0.23" Descripcion="LIMES - CARTON 40 LBS GENERICO LIMON - Bultos: 336" Unidad="Kilogramo" Cantidad="6216.0000" NoIdentificacion="09011221104" ClaveUnidad="KGM" ClaveProdServ="50304207">
+			<cfdi:InformacionAduanera NumeroPedimento="21  23  0700  1005695"/>
+		</cfdi:Concepto>
+		<cfdi:Concepto Importe="714.84" ValorUnitario="0.23" Descripcion="LIMES - CARTON 40 LBS GENERICO LIMON - Bultos: 168" Unidad="Kilogramo" Cantidad="3108.0000" NoIdentificacion="09011321104" ClaveUnidad="KGM" ClaveProdServ="50304207">
+			<cfdi:InformacionAduanera NumeroPedimento="21  23  0700  1005695"/>
+		</cfdi:Concepto>
+		<cfdi:Concepto Importe="1276.50" ValorUnitario="0.23" Descripcion="LIMES - CARTON 40 LBS RENE LIMON - Bultos: 300" Unidad="Kilogramo" Cantidad="5550.0000" NoIdentificacion="09011222114" ClaveUnidad="KGM" ClaveProdServ="50304207">
+			<cfdi:InformacionAduanera NumeroPedimento="21  23  0700  1005695"/>
+		</cfdi:Concepto>
+		<cfdi:Concepto Importe="1276.50" ValorUnitario="0.23" Descripcion="LIMES - CARTON 40 LBS RENE LIMON - Bultos: 300" Unidad="Kilogramo" Cantidad="5550.0000" NoIdentificacion="09011322114" ClaveUnidad="KGM" ClaveProdServ="50304207">
+			<cfdi:InformacionAduanera NumeroPedimento="21  23  0700  1005695"/>
+		</cfdi:Concepto>
+	</cfdi:Conceptos>
+	<cfdi:Complemento>
+		<cartaporte20:CartaPorte Version="2.0" TranspInternac="Sí" EntradaSalidaMerc="Salida" PaisOrigenDestino="MEX" ViaEntradaSalida="01" TotalDistRec="1090.89">
+			<cartaporte20:Ubicaciones>
+				<cartaporte20:Ubicacion TipoUbicacion="Origen" IDUbicacion="OR000001" RFCRemitenteDestinatario="ATU140403IR2" FechaHoraSalidaLlegada="2021-09-12T16:41:00" TipoEstacion="01">
+					<cartaporte20:Domicilio Colonia="0118" Localidad="02" Municipio="006" Estado="SIN" Pais="MEX" CodigoPostal="80150"/>
+				</cartaporte20:Ubicacion>
+				<cartaporte20:Ubicacion TipoUbicacion="Destino" IDUbicacion="DE000002" RFCRemitenteDestinatario="XEXX010101000" NumRegIdTrib="860937009" ResidenciaFiscal="USA" FechaHoraSalidaLlegada="2021-09-13T01:11:00" DistanciaRecorrida="1090.89">
+					<cartaporte20:Domicilio Calle="P.O. BOX 4737 E. FRONTAGE RD" Localidad="RIO RICO" Estado="AZ" Pais="USA" CodigoPostal="85648-9675"/>
+				</cartaporte20:Ubicacion>
+			</cartaporte20:Ubicaciones>
+			<cartaporte20:Mercancias PesoBrutoTotal="21460.000" UnidadPeso="KGM" NumTotalMercancias="5">
+				<cartaporte20:Mercancia BienesTransp="50304207" Descripcion="LIMES - CARTON 40 LBS GENERICO LIMON - Bultos: 56" Cantidad="1036.000000" ClaveUnidad="KGM" PesoEnKg="1036.000" FraccionArancelaria="0805500302">
+					<cartaporte20:CantidadTransporta Cantidad="5.000000" IDOrigen="OR000001" IDDestino="DE000002"/>
+				</cartaporte20:Mercancia>
+				<cartaporte20:Mercancia BienesTransp="50304207" Descripcion="LIMES - CARTON 40 LBS GENERICO LIMON - Bultos: 336" Cantidad="6216.000000" ClaveUnidad="KGM" PesoEnKg="6216.000" FraccionArancelaria="0805500302">
+					<cartaporte20:CantidadTransporta Cantidad="5.000000" IDOrigen="OR000001" IDDestino="DE000002"/>
+				</cartaporte20:Mercancia>
+				<cartaporte20:Mercancia BienesTransp="50304207" Descripcion="LIMES - CARTON 40 LBS GENERICO LIMON - Bultos: 168" Cantidad="3108.000000" ClaveUnidad="KGM" PesoEnKg="3108.000" FraccionArancelaria="0805500302">
+					<cartaporte20:CantidadTransporta Cantidad="5.000000" IDOrigen="OR000001" IDDestino="DE000002"/>
+				</cartaporte20:Mercancia>
+				<cartaporte20:Mercancia BienesTransp="50304207" Descripcion="LIMES - CARTON 40 LBS RENE LIMON - Bultos: 300" Cantidad="5550.000000" ClaveUnidad="KGM" PesoEnKg="5550.000" FraccionArancelaria="0805500302">
+					<cartaporte20:CantidadTransporta Cantidad="5.000000" IDOrigen="OR000001" IDDestino="DE000002"/>
+				</cartaporte20:Mercancia>
+				<cartaporte20:Mercancia BienesTransp="50304207" Descripcion="LIMES - CARTON 40 LBS RENE LIMON - Bultos: 300" Cantidad="5550.000000" ClaveUnidad="KGM" PesoEnKg="5550.000" FraccionArancelaria="0805500302">
+					<cartaporte20:CantidadTransporta Cantidad="5.000000" IDOrigen="OR000001" IDDestino="DE000002"/>
+				</cartaporte20:Mercancia>
+				<cartaporte20:Autotransporte PermSCT="TPAF19" NumPermisoSCT="123456">
+					<cartaporte20:IdentificacionVehicular ConfigVehicular="T3S2R4" PlacaVM="57AM4KG" AnioModeloVM="2010"/>
+					<cartaporte20:Seguros AseguraRespCivil="AXA" PolizaRespCivil="75432"/>
+					<cartaporte20:Remolques>
+						<cartaporte20:Remolque SubTipoRem="CTR006" Placa="58AM4KG"/>
+					</cartaporte20:Remolques>
+				</cartaporte20:Autotransporte>
+			</cartaporte20:Mercancias>
+			<cartaporte20:FiguraTransporte>
+				<cartaporte20:TiposFigura TipoFigura="01" RFCFigura="EKU9003173C9" NumLicencia="SIN0104612" NombreFigura="REY DAVID IBARRA FRANCO">
+					<cartaporte20:Domicilio Localidad="99" Municipio="006" Estado="SIN" Pais="MEX" CodigoPostal="80150"/>
+				</cartaporte20:TiposFigura>
+			</cartaporte20:FiguraTransporte>
+		</cartaporte20:CartaPorte>
+	</cfdi:Complemento>
+</cfdi:Comprobante>

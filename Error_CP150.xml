@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cfdi:Comprobante xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cartaporte20="http://www.sat.gob.mx/CartaPorte20" xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd http://www.sat.gob.mx/CartaPorte20 http://www.sat.gob.mx/sitio_internet/cfd/CartaPorte/CartaPorte20.xsd" Serie="CT" Version="3.3" Fecha="2021-12-21T10:36:08" Folio="3169" Moneda="XXX" Total="0.00" SubTotal="0.00" TipoDeComprobante="T" LugarExpedicion="80430">
+	<cfdi:Emisor RegimenFiscal="601" Nombre="CARAVI LOGISTICA SA DE CV" Rfc="IIA040805DZ4"/>
+	<cfdi:Receptor UsoCFDI="P01" Nombre="CARAVI LOGISTICA SA DE CV" Rfc="EKU9003173C9"/>
+	<cfdi:Conceptos>
+		<cfdi:Concepto Importe="238.28" ValorUnitario="0.23" Descripcion="LIMES - CARTON 40 LBS GENERICO LIMON - Bultos: 56" Unidad="Kilogramo" Cantidad="1036.0000" NoIdentificacion="09011121104" ClaveUnidad="KGM" ClaveProdServ="50304207">
+			<cfdi:InformacionAduanera NumeroPedimento="21  23  0700  1005695"/>
+		</cfdi:Concepto>
+	</cfdi:Conceptos>
+	<cfdi:Complemento>
+		<cartaporte20:CartaPorte Version="2.0" TranspInternac="No" TotalDistRec="500.00">
+			<cartaporte20:Ubicaciones>
+				<cartaporte20:Ubicacion TipoUbicacion="Origen" IDUbicacion="OR000001" RFCRemitenteDestinatario="ATU140403IR2" FechaHoraSalidaLlegada="2021-09-12T16:41:00" NumEstacion="Q881.6" NombreEstacion="SUFRAGIO CHP" TipoEstacion="01">
+					<cartaporte20:Domicilio  Estado="SIN" Colonia="0118" Localidad="02" Municipio="006" Pais="MEX" CodigoPostal="80150"/>
+				</cartaporte20:Ubicacion>
+				<cartaporte20:Ubicacion TipoUbicacion="Destino" IDUbicacion="DE000002" RFCRemitenteDestinatario="EKU9003173C9" FechaHoraSalidaLlegada="2021-09-13T01:11:00" DistanciaRecorrida="100.00" NumEstacion="Q0486" NombreEstacion="TERRERO" TipoEstacion="02">
+				</cartaporte20:Ubicacion>
+				<cartaporte20:Ubicacion TipoUbicacion="Destino" IDUbicacion="DE000003" RFCRemitenteDestinatario="EKU9003173C9" FechaHoraSalidaLlegada="2021-09-13T02:11:00" DistanciaRecorrida="100.00" NumEstacion="Q0513" NombreEstacion="ATAROS" TipoEstacion="02">
+				</cartaporte20:Ubicacion>
+				<cartaporte20:Ubicacion TipoUbicacion="Destino" IDUbicacion="DE000004" RFCRemitenteDestinatario="EKU9003173C9" FechaHoraSalidaLlegada="2021-09-13T03:11:00" DistanciaRecorrida="100.00" NumEstacion="Q0708" NombreEstacion="TEMORIS" TipoEstacion="02">
+				</cartaporte20:Ubicacion>
+				<cartaporte20:Ubicacion TipoUbicacion="Destino" IDUbicacion="DE000005" RFCRemitenteDestinatario="EKU9003173C9" FechaHoraSalidaLlegada="2021-09-13T04:11:00" DistanciaRecorrida="100.00" NumEstacion="Q0523" NombreEstacion="TREVINO" TipoEstacion="02">
+				</cartaporte20:Ubicacion>
+				<cartaporte20:Ubicacion TipoUbicacion="Destino" IDUbicacion="DE000006" RFCRemitenteDestinatario="EKU9003173C9" FechaHoraSalidaLlegada="2021-09-13T05:11:00" DistanciaRecorrida="100.00" NumEstacion="Q0722" NombreEstacion="JULIO ORNELAS" TipoEstacion="03">
+				</cartaporte20:Ubicacion>
+			</cartaporte20:Ubicaciones>
+			<cartaporte20:Mercancias PesoBrutoTotal="21460.000" PesoNetoTotal="1000.000" UnidadPeso="KGM" NumTotalMercancias="1">
+				<cartaporte20:Mercancia BienesTransp="50304207" Descripcion="LIMES - CARTON 40 LBS GENERICO LIMON - Bultos: 56" Cantidad="1036.000000" ClaveUnidad="KGM" MaterialPeligroso="No" PesoEnKg="21460.000" FraccionArancelaria="0805500302">
+					<cartaporte20:Pedimentos Pedimento="21  23  0700  1005695"/>
+					<cartaporte20:CantidadTransporta Cantidad="5.000000" IDOrigen="OR000001" IDDestino="DE000002" CvesTransporte="01"/>
+				</cartaporte20:Mercancia>
+				<cartaporte20:TransporteFerroviario TipoDeServicio="TS01" TipoDeTrafico="TT01">
+					<cartaporte20:Carro TipoCarro="TC01" MatriculaCarro="854962158" GuiaCarro="10" ToneladasNetasCarro="1000.000">
+						<cartaporte20:Contenedor TipoContenedor="TC01" PesoContenedorVacio="200.000" PesoNetoMercancia="800.000">
+						</cartaporte20:Contenedor>
+					</cartaporte20:Carro>
+				</cartaporte20:TransporteFerroviario>
+			</cartaporte20:Mercancias>
+			<cartaporte20:FiguraTransporte>
+				<cartaporte20:TiposFigura TipoFigura="01" RFCFigura="IAFR820106LP6" NumLicencia="SIN0104612" NombreFigura="REY DAVID IBARRA FRANCO" ResidenciaFiscalFigura="MEX">
+					<cartaporte20:Domicilio Colonia="0118" Localidad="02" Municipio="006" Estado="SIN" Pais="MEX" CodigoPostal="80150"/>
+				</cartaporte20:TiposFigura>
+				<cartaporte20:TiposFigura TipoFigura="01" RFCFigura="TOVJ651205LM8" NumLicencia="JAL0030138" NombreFigura="JUAN FELIPE TORRESILLAS VALENZUELA" ResidenciaFiscalFigura="MEX">
+					<cartaporte20:Domicilio Colonia="0118" Localidad="02" Municipio="006" Estado="SIN" Pais="MEX" CodigoPostal="80150"/>
+				</cartaporte20:TiposFigura>
+			</cartaporte20:FiguraTransporte>
+		</cartaporte20:CartaPorte>
+	</cfdi:Complemento>
+</cfdi:Comprobante>
